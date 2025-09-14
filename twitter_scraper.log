@@ -1,0 +1,209 @@
+2025-09-14 16:22:02,249 - INFO - [__init__] - Successfully connected to MongoDB.
+2025-09-14 16:22:02,249 - INFO - [setup_driver] - Setting up Chrome driver...
+2025-09-14 16:22:02,250 - INFO - [log] - ====== WebDriver manager ======
+2025-09-14 16:22:02,317 - INFO - [log] - Get LATEST chromedriver version for google-chrome
+2025-09-14 16:22:02,398 - INFO - [log] - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2025-09-14 16:22:02,475 - INFO - [log] - Driver downloading response is 200
+2025-09-14 16:22:02,542 - INFO - [log] - Get LATEST chromedriver version for google-chrome
+2025-09-14 16:22:02,761 - INFO - [log] - Get LATEST chromedriver version for google-chrome
+2025-09-14 16:22:02,868 - INFO - [log] - Driver has been saved in cache [/home/jules/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2025-09-14 16:22:03,038 - ERROR - [setup_driver] - Failed to initialize driver: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+#0 0x564311f3e4e3 <unknown>
+#1 0x564311c6dc76 <unknown>
+#2 0x564311c94757 <unknown>
+#3 0x564311c93029 <unknown>
+#4 0x564311cd1ccc <unknown>
+#5 0x564311cd147f <unknown>
+#6 0x564311cc8de3 <unknown>
+#7 0x564311c9e2dd <unknown>
+#8 0x564311c9f34e <unknown>
+#9 0x564311efe3e4 <unknown>
+#10 0x564311f023d7 <unknown>
+#11 0x564311f0cb20 <unknown>
+#12 0x564311f03023 <unknown>
+#13 0x564311ed11aa <unknown>
+#14 0x564311f276b8 <unknown>
+#15 0x564311f27847 <unknown>
+#16 0x564311f37243 <unknown>
+#17 0x7f9355c97aa4 <unknown>
+#18 0x7f9355d24c3c <unknown>
+
+2025-09-14 16:22:03,038 - ERROR - [<module>] - A critical error occurred in main execution: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+#0 0x564311f3e4e3 <unknown>
+#1 0x564311c6dc76 <unknown>
+#2 0x564311c94757 <unknown>
+#3 0x564311c93029 <unknown>
+#4 0x564311cd1ccc <unknown>
+#5 0x564311cd147f <unknown>
+#6 0x564311cc8de3 <unknown>
+#7 0x564311c9e2dd <unknown>
+#8 0x564311c9f34e <unknown>
+#9 0x564311efe3e4 <unknown>
+#10 0x564311f023d7 <unknown>
+#11 0x564311f0cb20 <unknown>
+#12 0x564311f03023 <unknown>
+#13 0x564311ed11aa <unknown>
+#14 0x564311f276b8 <unknown>
+#15 0x564311f27847 <unknown>
+#16 0x564311f37243 <unknown>
+#17 0x7f9355c97aa4 <unknown>
+#18 0x7f9355d24c3c <unknown>
+
+2025-09-14 16:23:17,348 - INFO - [__init__] - Successfully connected to MongoDB.
+2025-09-14 16:23:17,349 - INFO - [setup_driver] - Setting up Chrome driver...
+2025-09-14 16:23:17,349 - INFO - [log] - ====== WebDriver manager ======
+2025-09-14 16:23:20,012 - INFO - [log] - Get LATEST chromedriver version for google-chrome
+2025-09-14 16:23:20,104 - INFO - [log] - Get LATEST chromedriver version for google-chrome
+2025-09-14 16:23:20,192 - INFO - [log] - There is no [linux64] chromedriver "140.0.7339.82" for browser google-chrome "140.0.7339" in cache
+2025-09-14 16:23:20,192 - INFO - [log] - Get LATEST chromedriver version for google-chrome
+2025-09-14 16:23:20,435 - INFO - [log] - WebDriver version 140.0.7339.82 selected
+2025-09-14 16:23:20,441 - INFO - [log] - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.82/linux64/chromedriver-linux64.zip
+2025-09-14 16:23:20,441 - INFO - [log] - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.82/linux64/chromedriver-linux64.zip
+2025-09-14 16:23:20,527 - INFO - [log] - Driver downloading response is 200
+2025-09-14 16:23:20,583 - INFO - [log] - Get LATEST chromedriver version for google-chrome
+2025-09-14 16:23:20,837 - INFO - [log] - Driver has been saved in cache [/home/jules/.wdm/drivers/chromedriver/linux64/140.0.7339.82]
+2025-09-14 16:23:21,086 - ERROR - [setup_driver] - Failed to initialize driver: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x563171de894a <unknown>
+#1 0x56317185d8a0 <unknown>
+#2 0x563171898ab5 <unknown>
+#3 0x563171893288 <unknown>
+#4 0x5631718e3386 <unknown>
+#5 0x5631718e2a56 <unknown>
+#6 0x5631718d4e03 <unknown>
+#7 0x5631718a1968 <unknown>
+#8 0x5631718a25e1 <unknown>
+#9 0x563171dac548 <unknown>
+#10 0x563171db0272 <unknown>
+#11 0x563171d93313 <unknown>
+#12 0x563171db0dc5 <unknown>
+#13 0x563171d7849f <unknown>
+#14 0x563171dd5158 <unknown>
+#15 0x563171dd5332 <unknown>
+#16 0x563171de7a53 <unknown>
+#17 0x7f01efd63aa4 <unknown>
+#18 0x7f01efdf0c3c <unknown>
+
+2025-09-14 16:23:21,086 - ERROR - [<module>] - A critical error occurred in main execution: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x563171de894a <unknown>
+#1 0x56317185d8a0 <unknown>
+#2 0x563171898ab5 <unknown>
+#3 0x563171893288 <unknown>
+#4 0x5631718e3386 <unknown>
+#5 0x5631718e2a56 <unknown>
+#6 0x5631718d4e03 <unknown>
+#7 0x5631718a1968 <unknown>
+#8 0x5631718a25e1 <unknown>
+#9 0x563171dac548 <unknown>
+#10 0x563171db0272 <unknown>
+#11 0x563171d93313 <unknown>
+#12 0x563171db0dc5 <unknown>
+#13 0x563171d7849f <unknown>
+#14 0x563171dd5158 <unknown>
+#15 0x563171dd5332 <unknown>
+#16 0x563171de7a53 <unknown>
+#17 0x7f01efd63aa4 <unknown>
+#18 0x7f01efdf0c3c <unknown>
+
+2025-09-14 16:24:08,845 - INFO - [__init__] - Successfully connected to MongoDB.
+2025-09-14 16:24:08,845 - INFO - [setup_driver] - Setting up Chrome driver...
+2025-09-14 16:24:08,845 - INFO - [log] - ====== WebDriver manager ======
+2025-09-14 16:24:09,032 - INFO - [log] - Get LATEST chromedriver version for google-chrome
+2025-09-14 16:24:09,125 - INFO - [log] - Get LATEST chromedriver version for google-chrome
+2025-09-14 16:24:09,215 - INFO - [log] - Driver [/home/jules/.wdm/drivers/chromedriver/linux64/140.0.7339.82/chromedriver-linux64/chromedriver] found in cache
+2025-09-14 16:24:09,459 - ERROR - [setup_driver] - Failed to initialize driver: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55882a0ed94a <unknown>
+#1 0x558829b628a0 <unknown>
+#2 0x558829b9dab5 <unknown>
+#3 0x558829b98288 <unknown>
+#4 0x558829be8386 <unknown>
+#5 0x558829be7a56 <unknown>
+#6 0x558829bd9e03 <unknown>
+#7 0x558829ba6968 <unknown>
+#8 0x558829ba75e1 <unknown>
+#9 0x55882a0b1548 <unknown>
+#10 0x55882a0b5272 <unknown>
+#11 0x55882a098313 <unknown>
+#12 0x55882a0b5dc5 <unknown>
+#13 0x55882a07d49f <unknown>
+#14 0x55882a0da158 <unknown>
+#15 0x55882a0da332 <unknown>
+#16 0x55882a0eca53 <unknown>
+#17 0x7f2f112d2aa4 <unknown>
+#18 0x7f2f1135fc3c <unknown>
+
+2025-09-14 16:24:09,459 - ERROR - [<module>] - A critical error occurred in main execution: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55882a0ed94a <unknown>
+#1 0x558829b628a0 <unknown>
+#2 0x558829b9dab5 <unknown>
+#3 0x558829b98288 <unknown>
+#4 0x558829be8386 <unknown>
+#5 0x558829be7a56 <unknown>
+#6 0x558829bd9e03 <unknown>
+#7 0x558829ba6968 <unknown>
+#8 0x558829ba75e1 <unknown>
+#9 0x55882a0b1548 <unknown>
+#10 0x55882a0b5272 <unknown>
+#11 0x55882a098313 <unknown>
+#12 0x55882a0b5dc5 <unknown>
+#13 0x55882a07d49f <unknown>
+#14 0x55882a0da158 <unknown>
+#15 0x55882a0da332 <unknown>
+#16 0x55882a0eca53 <unknown>
+#17 0x7f2f112d2aa4 <unknown>
+#18 0x7f2f1135fc3c <unknown>
+
+2025-09-14 16:24:33,620 - INFO - [__init__] - Successfully connected to MongoDB.
+2025-09-14 16:24:33,620 - INFO - [setup_driver] - Setting up Chrome driver...
+2025-09-14 16:24:33,620 - INFO - [log] - ====== WebDriver manager ======
+2025-09-14 16:24:33,805 - INFO - [log] - Get LATEST chromedriver version for google-chrome
+2025-09-14 16:24:33,900 - INFO - [log] - Get LATEST chromedriver version for google-chrome
+2025-09-14 16:24:33,994 - INFO - [log] - Driver [/home/jules/.wdm/drivers/chromedriver/linux64/140.0.7339.82/chromedriver-linux64/chromedriver] found in cache
+2025-09-14 16:24:34,180 - ERROR - [setup_driver] - Failed to initialize driver: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x563298baa94a <unknown>
+#1 0x56329861f8a0 <unknown>
+#2 0x56329865aab5 <unknown>
+#3 0x563298655288 <unknown>
+#4 0x5632986a5386 <unknown>
+#5 0x5632986a4a56 <unknown>
+#6 0x563298696e03 <unknown>
+#7 0x563298663968 <unknown>
+#8 0x5632986645e1 <unknown>
+#9 0x563298b6e548 <unknown>
+#10 0x563298b72272 <unknown>
+#11 0x563298b55313 <unknown>
+#12 0x563298b72dc5 <unknown>
+#13 0x563298b3a49f <unknown>
+#14 0x563298b97158 <unknown>
+#15 0x563298b97332 <unknown>
+#16 0x563298ba9a53 <unknown>
+#17 0x7f16d72ecaa4 <unknown>
+#18 0x7f16d7379c3c <unknown>
+
+2025-09-14 16:24:34,181 - ERROR - [<module>] - A critical error occurred in main execution: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x563298baa94a <unknown>
+#1 0x56329861f8a0 <unknown>
+#2 0x56329865aab5 <unknown>
+#3 0x563298655288 <unknown>
+#4 0x5632986a5386 <unknown>
+#5 0x5632986a4a56 <unknown>
+#6 0x563298696e03 <unknown>
+#7 0x563298663968 <unknown>
+#8 0x5632986645e1 <unknown>
+#9 0x563298b6e548 <unknown>
+#10 0x563298b72272 <unknown>
+#11 0x563298b55313 <unknown>
+#12 0x563298b72dc5 <unknown>
+#13 0x563298b3a49f <unknown>
+#14 0x563298b97158 <unknown>
+#15 0x563298b97332 <unknown>
+#16 0x563298ba9a53 <unknown>
+#17 0x7f16d72ecaa4 <unknown>
+#18 0x7f16d7379c3c <unknown>
