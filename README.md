@@ -46,15 +46,36 @@ You will also need a running MongoDB instance. You can use a local instance or a
 
 ## 2. Configuration
 
-The scraper is configured using environment variables to keep your credentials secure. Create a `.env` file in the project root or set these variables in your shell:
+The scraper is configured using environment variables to keep your credentials secure. Create a `.env` file in the project root or set these variables in your shell.
+
+### Finding Your Authentication Headers
+
+This scraper uses Twitter's internal API for maximum speed and reliability. To do this, you need to provide your personal authentication headers. This is a one-time setup.
+
+1.  **Log in to Twitter/X** in your normal web browser (e.g., Chrome, Firefox).
+2.  Open the **Developer Tools**. You can usually do this by pressing `F12` or right-clicking on the page and selecting "Inspect".
+3.  Go to the **Network** tab in the Developer Tools.
+4.  In the filter box of the Network tab, type `UserBy` to filter the requests.
+5.  Click on a user's profile on the Twitter website to trigger an API call. You should see a request named `UserByScreenName` or similar appear in the Network tab.
+6.  Click on this request. A new panel will open.
+7.  Go to the **Headers** tab within this new panel.
+8.  Scroll down to **Request Headers**. You need to find and copy the values for three headers:
+    *   `authorization`: This is a very long string starting with `Bearer AAAA...`
+    *   `x-csrf-token`: This is a 32-character hexadecimal string.
+    *   `cookie`: This is a very long string containing all your session cookies.
+
+### Setting Environment Variables
+
+Once you have these three values, set them as environment variables.
 
 ```
-# Your Twitter/X login credentials
-TWITTER_USERNAME="your_twitter_username"
-TWITTER_PASSWORD="your_twitter_password"
+# Your MongoDB connection string
+MONGO_DB_URI="mongodb+srv://user:password@cluster.mongodb.net/..."
 
-# (Optional) Your email, in case Twitter asks for it during login
-TWITTER_EMAIL="your_twitter_email@example.com"
+# The headers you copied from your browser
+TWITTER_AUTH_TOKEN="Bearer AAAA..."
+TWITTER_CSRF_TOKEN="1234567890abcdef1234567890abcdef"
+TWITTER_COOKIE="your_full_cookie_string"
 
 # Your MongoDB connection string
 MONGO_DB_URI="mongodb+srv://user:password@cluster.mongodb.net/..."
@@ -62,13 +83,13 @@ MONGO_DB_URI="mongodb+srv://user:password@cluster.mongodb.net/..."
 
 ## 3. How to Use
 
-The main entry point is the `unified_scraper.py` script. You can run it directly from your terminal.
+The main entry point is the `twitter_scraper.py` script. You can run it directly from your terminal.
 
 The primary way to use the scraper is by defining a **job**. A job is a dictionary that tells the scraper what you want to do.
 
 ### Running a Scraping Job
 
-To run the scraper, you modify the `if __name__ == "__main__":` block at the bottom of `unified_scraper.py`.
+To run the scraper, you modify the `if __name__ == "__main__":` block at the bottom of `twitter_scraper.py`.
 
 Here is an example of a job to scrape the first 500 followers of the `MindAIProject` Twitter account:
 

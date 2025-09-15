@@ -1,3 +1,4 @@
-selenium
-webdriver-manager
+playwright
 pymongo
+python-dotenv
+requests
